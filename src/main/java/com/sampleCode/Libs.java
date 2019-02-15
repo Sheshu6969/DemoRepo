@@ -8,14 +8,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Libs {
 	@Test
 	public void Login() {
-		/**WebDriver driver;
+		WebDriver driver;
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();        
         driver.get("https://google.com");
         driver.manage().window().maximize();
         String title = driver.getTitle();
         System.out.println(title);      
-       // driver.quit(); */
+       // driver.quit(); 
 	}
 
 }
